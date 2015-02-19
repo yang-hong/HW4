@@ -11,10 +11,12 @@
             width: 563px;
         }
     </style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+    <div class="1">
     <form id="form1" runat="server">
-    <div>
+    <div class="2">
     
         <h1>Net Pay Calculator</h1>
         </div>
@@ -52,5 +54,6 @@
         <br />
 &nbsp;&nbsp;&nbsp;
     </form>
+        </div>
 </body>
 </html>
