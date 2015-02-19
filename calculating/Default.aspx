@@ -7,7 +7,7 @@
     <title>Net Payment Calculator</title>
     <style type="text/css">
         #form1 {
-            height: 190px;
+            height: 243px;
             width: 563px;
         }
     </style>
@@ -39,8 +39,11 @@
         <asp:Button ID="Button1" runat="server" Text="Submit  Information" />
         &nbsp;&nbsp; &nbsp;&nbsp;
         <asp:Label ID="lbloutput" runat="server" Text="Net Income"></asp:Label>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="lblnetIncome" runat="server"></asp:Label>
+        &nbsp;&nbsp;&nbsp;<asp:Label ID="lblnetIncome" runat="server"></asp:Label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        <br />
+        <asp:Button ID="clear" runat="server" Text="Clear" />
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />

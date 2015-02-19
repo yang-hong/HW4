@@ -22,19 +22,13 @@ Partial Class _Default
 
     End Sub
 
-    Protected Sub tbwage_TextChanged(sender As Object, e As EventArgs) Handles tbwage.TextChanged
+    Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles clear.Click
+        tbwage.Text = String.Empty
+        tbhours.Text = String.Empty
+        tbpre.Text = String.Empty
+        tbpost.Text = String.Empty
         lblnetIncome.Text = String.Empty
-    End Sub
 
-    Protected Sub tbhours_TextChanged(sender As Object, e As EventArgs) Handles tbhours.TextChanged
-        lblnetIncome.Text = String.Empty
-    End Sub
 
-    Protected Sub tbpre_TextChanged(sender As Object, e As EventArgs) Handles tbpre.TextChanged
-        lblnetIncome.Text = String.Empty
-    End Sub
-
-    Protected Sub tbpost_TextChanged(sender As Object, e As EventArgs) Handles tbpost.TextChanged
-        lblnetIncome.Text = String.Empty
     End Sub
 End Class
