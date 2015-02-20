@@ -1,19 +1,24 @@
 body{
-background-color:pink;
+background-color:darkgray;
 font-family: normal 100% 'Droid Sans', arial, sans-serif;
 line-height: 2em;
 padding;100px;
-}
-
-.1 {
-border-style:solid;
+margin-left:255px;
+margin-right:255px;
+border:solid;
 border-width:3px;
 border-color:black;
-margin-left:5px;
-margin-right:px;
-padding:100px;
+width:550px;
 }
 
-.2 {
-color:white
+
+
+h1 {
+    color:white;
+     Background-color: black;
+    width: 549px;
+}
+
+.box{
+    color:mediumpurple
 }

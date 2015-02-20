@@ -7,18 +7,18 @@
     <title>Net Payment Calculator</title>
     <style type="text/css">
         #form1 {
-            height: 243px;
-            width: 563px;
+            height: 287px;
+            width: 551px;
         }
     </style>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
     <div class="1">
     <form id="form1" runat="server">
     <div class="2">
     
-        <h1>Net Pay Calculator</h1>
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Net Pay Calculator</h1>
         </div>
         <asp:Label ID="lblwage" runat="server" Text="Hourly Wage"></asp:Label>
 &nbsp;&nbsp;&nbsp;
@@ -44,8 +44,8 @@
         &nbsp;&nbsp;&nbsp;<asp:Label ID="lblnetIncome" runat="server"></asp:Label>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
+        <asp:Button ID="clear" runat="server" Text="Clear" Width="137px" />
         <br />
-        <asp:Button ID="clear" runat="server" Text="Clear" />
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
